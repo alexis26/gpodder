@@ -258,7 +258,7 @@ msgid ""
 "failure to download files.\n"
 msgstr ""
 "Attention : le chemin vers le répertoire de stockage de gPodder (%(root)s) "
-"est très long et peut provoquer des erreurs au téléchargement d'épisodes.\n"
+"est très long et peut provoquer des erreurs lors du téléchargement d'épisodes.\n"
 
 #: src/gpodder/model.py:1396
 msgid "You're advised to set it to a shorter path."
@@ -878,7 +878,7 @@ msgstr "Aucun nouvel épisode"
 msgid "Downloading %(count)d new episode."
 msgid_plural "Downloading %(count)d new episodes."
 msgstr[0] "Télécharge %(count)d nouvel épisode."
-msgstr[1] "Télécharge %(count)d nouvels épisodes"
+msgstr[1] "Télécharge %(count)d nouveaux épisodes"
 
 #: src/gpodder/gtkui/main.py:2642 src/gpodder/gtkui/main.py:2649
 #: src/gpodder/gtkui/main.py:3015
@@ -890,7 +890,7 @@ msgstr "De nouveaux épisodes sont disponibles"
 msgid "%(count)d new episode added to download list."
 msgid_plural "%(count)d new episodes added to download list."
 msgstr[0] "%(count)d nouvel épisode ajouté à la liste de téléchargement."
-msgstr[1] "%(count)d nouvels épisodes ajoutés à la liste de téléchargement"
+msgstr[1] "%(count)d nouveaux épisodes ajoutés à la liste de téléchargement"
 
 #: src/gpodder/gtkui/main.py:2655
 #, python-format
@@ -933,7 +933,7 @@ msgstr[1] "Supprimer %(count)d episodes ?"
 
 #: src/gpodder/gtkui/main.py:2738 bin/gpo:868
 msgid "Deleting episodes removes downloaded files."
-msgstr "La suppression des épisodes supprime les fichiers téléchargés."
+msgstr "La suppression des épisodes efface les fichiers téléchargés."
 
 #: src/gpodder/gtkui/main.py:2743
 msgid "Deleting episodes"
@@ -1487,7 +1487,7 @@ msgid ""
 "Remote podcasts that have not been added locally will be removed on the "
 "server. Continue?"
 msgstr ""
-"Les podcasts distant qui n'ont pas été ajoutés localement seront retirés du "
+"Les podcasts distants qui n'ont pas été ajoutés localement seront retirés du "
 "serveur. Continuer ?"
 
 #: src/gpodder/gtkui/desktop/preferences.py:644
@@ -1646,7 +1646,7 @@ msgstr "Convertit toutes les vidéos en un format compatible avec Rockbox"
 #: share/gpodder/extensions/video_converter.py:115
 #: share/gpodder/extensions/audio_converter.py:134
 msgid "File converted"
-msgstr "Fichier convertit"
+msgstr "Fichier converti"
 
 #: share/gpodder/extensions/mpris-listener.py:36
 msgid "MPRIS Listener"
@@ -1655,7 +1655,7 @@ msgstr "Observateur MPRIS"
 #: share/gpodder/extensions/mpris-listener.py:37
 msgid "Convert MPRIS notifications to gPodder Media Player D-Bus API"
 msgstr ""
-"Reporte les événements des lecteurs multimédia externes (VLC, ...) dans "
+"Reporte les événements des lecteurs multimédias externes (VLC, ...) dans "
 "gPodder"
 
 #: share/gpodder/extensions/ubuntu_appindicator.py:15
@@ -1664,7 +1664,7 @@ msgstr "Indicateur Ubuntu App"
 
 #: share/gpodder/extensions/ubuntu_appindicator.py:16
 msgid "Show a status indicator in the top bar."
-msgstr "Ajoute une icone de statut dans la barre du haut."
+msgstr "Ajoute une icône de statut dans la barre du haut."
 
 #: share/gpodder/extensions/ubuntu_appindicator.py:47
 msgid "Show main window"
@@ -1722,7 +1722,7 @@ msgstr "Convertir les vidéos"
 
 #: share/gpodder/extensions/video_converter.py:21
 msgid "Transcode video files to avi/mp4/m4v"
-msgstr "Convertit les vidéos en avi/mp4/m4v"
+msgstr "Converti les vidéos en avi/mp4/m4v"
 
 #: share/gpodder/extensions/video_converter.py:84
 #: share/gpodder/extensions/audio_converter.py:93
@@ -2010,7 +2010,7 @@ msgstr "<b><big>Bienvenue dans gPodder</big></b>"
 
 #: share/gpodder/ui/gtk/gpodderwelcome.ui.h:3
 msgid "Your podcast list is empty."
-msgstr "Votre liste de podcasts est vide."
+msgstr "Votre liste de podcast est vide."
 
 #: share/gpodder/ui/gtk/gpodderwelcome.ui.h:4
 msgid "Choose from a list of example podcasts"
@@ -2050,7 +2050,7 @@ msgstr "Télécharger de nouveaux épisodes"
 
 #: share/gpodder/ui/gtk/menus.ui.h:11
 msgid "_Subscriptions"
-msgstr "A_bonnements"
+msgstr "_Abonnements"
 
 #: share/gpodder/ui/gtk/menus.ui.h:12
 msgid "Discover new podcasts"
@@ -2070,7 +2070,7 @@ msgstr "Exporter vers un fichier OPML"
 
 #: share/gpodder/ui/gtk/menus.ui.h:19
 msgid "_Episodes"
-msgstr "_Episodes"
+msgstr "_Épisodes"
 
 #: share/gpodder/ui/gtk/menus.ui.h:25
 msgid "Toggle new status"
@@ -2449,7 +2449,7 @@ msgstr "Erreur de syntaxe : %(error)s"
 
 #: bin/gpo:1129
 msgid "Ambiguous command. Did you mean.."
-msgstr "Commande ambiguë. Vouliez vous dire..."
+msgstr "Commande ambiguë. Vouliez-vous dire..."
 
 #: bin/gpo:1133
 msgid "The requested function is not available."
